@@ -21,7 +21,6 @@ h1 {
 }
 #menu-outer {
   height: 84px;
-  background: url(images/bar-bg.jpg) repeat-x;
 }
 
 .table {
@@ -49,7 +48,6 @@ ul#horizontal-list li {
 }
 #menu-outer3 {
 	height: 84px;
-	background: url(images/bar-bg.jpg) repeat-x;
 }
 
 .table3 {
