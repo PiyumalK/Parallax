@@ -256,6 +256,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: -32px;
+  transition: transform 0.2s;
+}
+
+.highlightsCard .play:hover {
+  transform: scale(1.5);
 }
 
 .section div button {
