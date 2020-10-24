@@ -331,9 +331,11 @@ body {
 }
 
 .flex-container > div {
-  background-color: #10d824;
+  /* background-color: #10d824; */
   margin: 10px;
   text-align: center;
+  color: #ffffff;
+  font-weight: bold;
 }
 .highlightsContainer {
   display: grid;
