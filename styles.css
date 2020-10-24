@@ -1,71 +1,74 @@
 div.gallery {
-    width:250px;
-    padding: 20px;
-      
-  }
-  p {
+  width: 250px;
+  padding: 20px;
+}
+/* p {
       text-align: center;
       font-size: 12px;
       padding: 70px;
       color:white;
-    }
- h1{
-        text-align: center;
-    }
-.footer{
-    background-color: #fedd02;
-    height: 200px;
-    width: 1350px;
-    margin-top: 15px;
-    font-size: 23px;
+    } */
+h1 {
+  text-align: center;
+}
+.footer {
+  background-color: #fedd02;
+  height: 200px;
+  width: 1350px;
+  margin-top: 15px;
+  font-size: 23px;
 }
 #menu-outer {
-	height: 84px;
-	background: url(images/bar-bg.jpg) repeat-x;
+  height: 84px;
+  background: url(images/bar-bg.jpg) repeat-x;
 }
 
 .table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
 }
 
 ul#horizontal-list {
-	min-width: 696px;
-	list-style: none;
-    padding-top: 20px;
-    }
-    
-ul#horizontal-list li {
-        display: inline;
-        padding: 50px;
-        align-content: center;
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
 }
-.rights{
-    background-color: rgb(144, 145, 139);
-    height: 200px;
-    width: 1350px;
-    margin-top: 0px;
-    font-size: 23px;
+
+ul#horizontal-list li {
+  display: inline;
+  padding: 50px;
+  align-content: center;
+}
+.rights {
+  background-color: rgb(144, 145, 139);
+  height: 200px;
+  width: 1350px;
+  margin-top: 0px;
+  font-size: 23px;
 }
 #menu-outer2 {
-	height: 84px;
+  height: 84px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .table2 {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
 }
 
 ul#horizontal-list2 {
-	min-width: 696px;
-	list-style: none;
-    padding-top: 20px;
-    }
-    
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+
 ul#horizontal-list2 li {
-        display: inline;
-        padding: 80px;
-        align-content: center;
+  display: inline;
+  padding: 80px;
+  align-content: center;
 }
 body {
   margin: 0;
@@ -283,16 +286,16 @@ body {
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    background-color: #f3f3f3;
-    height: 200px;
+  display: flex;
+  flex-direction: row;
+  background-color: #f3f3f3;
+  height: 200px;
 }
 
 .flex-container > div {
-    background-color: #10d824;
-    margin: 10px;
-    text-align: center;
+  background-color: #10d824;
+  margin: 10px;
+  text-align: center;
 }
 .highlightsContainer {
   display: grid;
