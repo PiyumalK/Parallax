@@ -2,12 +2,12 @@ div.gallery {
   width: 250px;
   padding: 20px;
 }
-/* p {
-      text-align: center;
-      font-size: 12px;
-      padding: 70px;
-      color:white;
-    } */
+div.ab {
+  text-align: center;
+  font-size: 12px;
+  padding: 70px;
+  color: white;
+}
 h1 {
   text-align: center;
 }
