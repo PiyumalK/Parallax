@@ -1,44 +1,43 @@
-/* div.gallery {
-    width:2px;
-    padding: 0px;
-      
-  } */
- div.ab {
-      text-align: center;
-      font-size: 12px;
-      padding: 70px;
-      color:white;
-    }
- h1{
-        text-align: center;
-    }
-.footer{
-    background-color: #fedd02;
-    height: 200px;
-    width: 1350px;
-    margin-top: 200px;
-    font-size: 23px;
+div.gallery {
+  width: 250px;
+  padding: 20px;
+}
+div.ab {
+  text-align: center;
+  font-size: 12px;
+  padding: 70px;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+.footer {
+  background-color: #fedd02;
+  height: 200px;
+  width: 1350px;
+  margin-top: 15px;
+  font-size: 23px;
 }
 #menu-outer {
-	height: 84px;
-	background: url(images/bar-bg.jpg) repeat-x;
+  height: 84px;
+  background: url(images/bar-bg.jpg) repeat-x;
 }
 
 .table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
 }
 
 ul#horizontal-list {
-	min-width: 696px;
-	list-style: none;
-    padding-top: 20px;
-    }
-    
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+
 ul#horizontal-list li {
-        display: inline;
-        padding: 50px;
-        align-content: center;
+  display: inline;
+  padding: 50px;
+  align-content: center;
 }
 .gallery{
     background-color: #ffffff;
@@ -75,25 +74,36 @@ ul#horizontal-list3 li {
     margin-top: 0px;
     font-size: 23px;
 }
+/* .rights {
+  background-color: rgb(144, 145, 139);
+  height: 200px;
+  width: 1350px;
+  margin-top: 0px;
+  font-size: 23px;
+} */
 #menu-outer2 {
-	height: 84px;
+  height: 84px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .table2 {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
 }
 
 ul#horizontal-list2 {
-	min-width: 696px;
-	list-style: none;
-    padding-top: 20px;
-    }
-    
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+
 ul#horizontal-list2 li {
-        display: inline;
-        padding: 80px;
-        align-content: center;
+  display: inline;
+  padding: 80px;
+  align-content: center;
 }
 body {
   margin: 0;
@@ -112,6 +122,14 @@ body {
   overflow: hidden;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.navBlack {
+  background-color: #393939;
+  overflow: hidden;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 20px;
 }
 
 .navLinks a {
@@ -186,7 +204,7 @@ body {
   box-shadow: 0px 0px 2px #888888;
   cursor: pointer;
   border-radius: 10px;
-  transition: transform 0.2s;
+  transition: transform 0.4s;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -214,7 +232,7 @@ body {
 
 .teamCard:hover {
   box-shadow: 0px 0px 20px #888888;
-  transform: scale(1.02);
+  transform: scale(1.03);
 }
 
 .showcase {
@@ -303,16 +321,16 @@ body {
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    background-color: #f3f3f3;
-    height: 200px;
+  display: flex;
+  flex-direction: row;
+  background-color: #f3f3f3;
+  height: 200px;
 }
 
 .flex-container > div {
-    background-color: #10d824;
-    margin: 10px;
-    text-align: center;
+  background-color: #10d824;
+  margin: 10px;
+  text-align: center;
 }
 .highlightsContainer {
   display: grid;
@@ -373,6 +391,10 @@ body {
 }
 
 .highlightsCard .play:hover {
+  transform: scale(1.5);
+}
+
+.highlightsCard:hover > .play {
   transform: scale(1.5);
 }
 
