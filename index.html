@@ -1,54 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>LPL</title>
-</head>
-<body>
-    <div>
-        <!-- navbar -->
+  </head>
+  <body>
+    <div class="nav">
+      <!-- navbar -->
+      <div class="navLinks">
+        <img src="assets/logo.png" width="67" />
+        <a class="navActive">HOME</a>
+        <a>POINTS TABLE</a>
+        <a>TEAMS</a>
+        <a>STATS</a>
+      </div>
+      <input type="text" placeholder="Search" />
+    </div>
+    <div class="showcase">
+      <!-- showcase -->
+      <img class="showcaseImage" src="showcase.png" />
+    </div>
+    <div class="section">
+      <!-- points table -->
+      <h1 class="table">Points Table</h1>
+
+      <div class="table">
+        <div class="row row1">
+          <div class="td td1"></div>
+          <div class="td td2">Pld</div>
+          <div class="td td3">W</div>
+          <div class="td td4">L</div>
+          <div class="td td5">T</div>
+          <div class="td td6">Pts</div>
+          <div class="td td7">RR</div>
+        </div>
+        <div class="row row2">
+          <div class="td td1">Colombo Kings</div>
+          <div class="td td2">10</div>
+          <div class="td td3">7</div>
+          <div class="td td4">3</div>
+          <div class="td td5">0</div>
+          <div class="td td6">14</div>
+          <div class="td td7">+1.2</div>
+        </div>
+        <div class="row row3">
+          <div class="td td1">Dambulla Hawks</div>
+          <div class="td td2">10</div>
+          <div class="td td3">7</div>
+          <div class="td td4">3</div>
+          <div class="td td5">0</div>
+          <div class="td td6">14</div>
+          <div class="td td7">+0.2</div>
+        </div>
+        <div class="row row4">
+          <div class="td td1">Galle Gladiators</div>
+          <div class="td td2">10</div>
+          <div class="td td3">7</div>
+          <div class="td td4">3</div>
+          <div class="td td5">14</div>
+          <div class="td td6">14</div>
+          <div class="td td7">+0.3</div>
+        </div>
+        <div class="row row5">
+          <div class="td td1">Jaffna Stallions</div>
+          <div class="td td2">10</div>
+          <div class="td td3">5</div>
+          <div class="td td4">5</div>
+          <div class="td td5">0</div>
+          <div class="td td6">10</div>
+          <div class="td td7">-0.2</div>
+        </div>
+        <div class="row row6">
+          <div class="td td1">Kandy Tuskers</div>
+          <div class="td td2">10</div>
+          <div class="td td3">5</div>
+          <div class="td td4">5</div>
+          <div class="td td5">0</div>
+          <div class="td td6">10</div>
+          <div class="td td7">-0.5</div>
+        </div>
+      </div>
+    </div>
+    <div class="section teams">
+      <!-- teams -->
+      <h1 class="title">2020 Teams</h1>
+      <div class="teamsContainer">
+        <div class="teamCard">
+          <img src="assets/teamLogo.png" />
+          <p class="bold">Colombo Kings</p>
+          <p>Captain: LD Chandimal</p>
+        </div>
+        <div class="teamCard">
+          <img src="assets/teamLogo.png" />
+          <p class="bold">Dambulla Hawks</p>
+          <p>Captain: N Dickwella</p>
+        </div>
+        <div class="teamCard">
+          <img src="assets/teamLogo.png" />
+          <p class="bold">Galle Gladiators</p>
+          <p>Captain: SL Malinga</p>
+        </div>
+        <div class="teamCard">
+          <img src="assets/teamLogo.png" />
+          <p class="bold">Jaffna Stallions</p>
+          <p>Captain: AD Mathews</p>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <!-- highlights -->
+      <h1 class="title">Match Highlights</h1>
+      <div class="highlightsContainer">
+        <div class="highlightsCard">
+          <img src="assets/video.png" />
+          <img class="play" src="assets/play.png" />
+          <p class="bold">Highlights - match 2</p>
+          <!-- <img src="assets/eye.png" /> -->
+          <p><span>32,690 Views</span> 12 HRS AGO</p>
+        </div>
+        <div class="highlightsCard">
+          <img src="assets/video.png" />
+          <img class="play" src="assets/play.png" />
+          <p class="bold">Highlights - match 2</p>
+          <!-- <img src="assets/eye.png" /> -->
+          <p><span>32,690 Views</span> 12 HRS AGO</p>
+        </div>
+        <div class="highlightsCard">
+          <img src="assets/video.png" />
+          <img class="play" src="assets/play.png" />
+          <p class="bold">Highlights - match 2</p>
+          <!-- <img src="assets/eye.png" /> -->
+          <p><span>32,690 Views</span> 12 HRS AGO</p>
+        </div>
+      </div>
+      <div><button>See All</button></div>
     </div>
     <div>
-        <!-- showcase -->
+      <!-- statistics -->
     </div>
     <div>
-        <!-- points table -->
+      <!-- sponsors -->
     </div>
     <div>
-        <!-- teams -->
-    </div>
-    <div>
-        <!-- highlights -->
-    </div>
-    <div>
-        <!-- statistics -->
-    </div>
-    <div>
-        <!-- sponsors -->
-    </div>
-    <div>
+<<<<<<< HEAD
         <!-- footer -->
         <h2>Sponsers</h2>
         
         <div class="gallery">
-              <img src="assests/abc.JPG"  width="180" height="180">
-        </div>
-        <div class="ver"></div>
-        <div class="gallery">
-            <img src="assests/def.JPG"  width="180" height="180">
-      </div>
-      <div class="gallery">
-        <img src="assests/def.JPG"  width="180" height="180">
-    </div>
-      <div class="gallery">
-        <img src="assests/def.JPG"  width="180" height="180">
-    </div>
-    <div class="gallery">
-      <img src="assests/def.JPG"  width="180" height="180">
-    </div>
-    </div>
+              <img src="assests/abc.JPG"  width="250" height="250">
+              <img src="assests/def.JPG"  width="250" height="250">
+              <img src="assests/def.JPG"  width="250" height="250">
+              <img src="assests/def.JPG"  width="250" height="250">
+              <img src="assests/def.JPG"  width="250" height="250">
+     </div>
      <div class="footer">
         <div id="menu-outer">
             <div class="table">
@@ -81,4 +191,10 @@
     
 </body>
 <script src="scripts.js"></script>
+=======
+      <!-- footer -->
+    </div>
+  </body>
+  <script src="scripts.js"></script>
+>>>>>>> 99212f896f95e3aa4da32dadb657806a0ad96696
 </html>
