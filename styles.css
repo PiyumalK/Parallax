@@ -1,0 +1,86 @@
+.showcase {
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 75%;
+}
+
+.showcaseImage {
+    width: fit-content;
+}
+
+.table {
+    display: table;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.table .row {
+    display: table-row;
+}
+
+.table .td {
+    display: table-cell;
+    padding: 20px;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+
+.table .row2 {
+    background-color: #393939;
+    color: #ffffff;
+}
+
+.table .row3 {
+    background-color: #FEDD02;
+}
+
+.table .row4 {
+    background-color: #393939;
+    color: #ffffff;
+}
+
+.table .row5 {
+    background-color: #FEDD02;
+}
+
+.table .row6 {
+    background-color: #393939;
+    color: #ffffff;
+}
+
+.table .td1 {
+    width: 100000px;
+    border-right: 5px solid #ffffff;
+}
+
+.table .td2 {
+    background-color: #393939;
+    color: #ffffff;
+}
+
+.table .td3 {
+    background-color: #393939;
+    color: #10D824;
+}
+
+.table .td4 {
+    background-color: #393939;
+    color: #FF5B5B;
+}
+
+.table .td5 {
+    background-color: #393939;
+    color: #ffffff;
+}
+
+.table .td6 {
+    background-color: #393939;
+    color: #ffffff;
+}
+
+.table .td7 {
+    background-color: #393939;
+    color: #ffffff;
+}
