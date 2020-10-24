@@ -13,6 +13,8 @@ body {
 .nav {
   background-color: #fedd02;
   overflow: hidden;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .navLinks a {
@@ -70,15 +72,15 @@ body {
   padding-bottom: 30px;
 }
 
-.gridContainer {
+.teamsContainer {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
-  padding: 10px;
+  padding: 0px;
 }
 
 .teamCard {
-  width: 250px;
+  width: 270px;
   height: 268px;
   background-color: #fff;
   float: left;
@@ -113,8 +115,9 @@ body {
 .teamCard:hover {
   box-shadow: 0px 0px 20px #888888;
 }
+
 .showcase {
-  /* width: 75%; */
+  margin-bottom: 50px;
 }
 
 .showcaseImage {
@@ -125,8 +128,8 @@ body {
   display: table;
   font-family: "Roboto", sans-serif;
   margin: auto;
-  padding-left: 80px;
-  padding-right: 80px;
+  /* padding-left: 80px;
+  padding-right: 80px; */
 }
 
 .table .row {
@@ -164,7 +167,7 @@ body {
 }
 
 .table .td1 {
-  width: 60%;
+  width: 100%;
   border-right: 5px solid #ffffff;
 }
 
@@ -196,4 +199,76 @@ body {
 .table .td7 {
   background-color: #393939;
   color: #ffffff;
+}
+
+.highlightsContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 0px;
+}
+
+.highlightsCard {
+  width: 350px;
+  height: 268px;
+  background-color: #fff;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 2px #888888;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.highlightsCard .bold {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.highlightsCard p {
+  text-align: center;
+  /* padding-top: 5px; */
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.highlightsCard span {
+  color: gray;
+  margin-right: 40px;
+}
+
+.highlightsCard .fi {
+  float: left;
+  margin-left: 100px;
+  width: 20px;
+  height: 20px;
+}
+
+.highlightsCard textRow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlightsCard .play {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -32px;
+}
+
+.section div button {
+  margin-top: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  padding: 15px 20px;
+  background-color: #fedd02;
+  box-shadow: 0px 2px 10px #888888;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 24px;
 }
