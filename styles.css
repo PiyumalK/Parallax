@@ -160,6 +160,9 @@ body {
   box-shadow: 0px 0px 2px #888888;
   cursor: pointer;
   border-radius: 10px;
+  transition: transform 0.2s;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .teamCard img {
@@ -185,6 +188,7 @@ body {
 
 .teamCard:hover {
   box-shadow: 0px 0px 20px #888888;
+  transform: scale(1.02);
 }
 
 .showcase {
@@ -327,6 +331,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: -32px;
+  transition: transform 0.2s;
+}
+
+.highlightsCard .play:hover {
+  transform: scale(1.5);
 }
 
 .section div button {
