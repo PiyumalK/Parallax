@@ -1,12 +1,12 @@
 div.gallery {
-  /* width: 250px; */
+  width: 100%;
   padding: 20px;
-  margin-bottom:40px ;
+  margin-bottom: 40px;
 }
 div.ab {
   text-align: center;
   font-size: 12px;
-  padding: 70px;
+  padding-top: 70px;
   color: white;
 }
 h1 {
@@ -15,7 +15,7 @@ h1 {
 .footer {
   background-color: #fedd02;
   height: 200px;
-  width: 1350px;
+  width: 100%;
   margin-top: 150px;
   font-size: 23px;
 }
@@ -39,39 +39,42 @@ ul#horizontal-list li {
   padding: 50px;
   align-content: center;
 }
-.gallery{
-    background-color: #ffffff;
-    height: 200px;
-    width: 1350px;
-    margin-top: 15px;
-    font-size: 23px;
+.gallery {
+  background-color: #ffffff;
+  height: 200px;
+  width: 90%;
+  margin-top: 15px;
+  font-size: 23px;
+  padding: 0px;
 }
 #menu-outer3 {
-	height: 84px;
+  height: 84px;
+  width: 100%;
 }
 
 .table3 {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
 }
 
 ul#horizontal-list3 {
-	min-width: 696px;
-	list-style: none;
-    padding-top: 20px;
-    }
-    
-ul#horizontal-list3 li {
-        display: inline;
-        padding: 50px;
-        align-content: center;
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 0;
 }
-.rights{
-    background-color: rgb(144, 145, 139);
-    height: 200px;
-    width: 1350px;
-    margin-top: 0px;
-    font-size: 23px;
+
+ul#horizontal-list3 li {
+  display: inline;
+  padding: 30px;
+  align-content: center;
+}
+.rights {
+  background-color: rgb(144, 145, 139);
+  height: 200px;
+  width: 100%;
+  margin-top: 0px;
+  font-size: 23px;
 }
 /* .rights {
   background-color: rgb(144, 145, 139);
@@ -155,7 +158,7 @@ body {
   /* border-radius: 25px; */
   width: 20%;
   line-height: 30px;
-  color: #FFDD02;
+  color: #ffdd02;
 }
 
 .fixIn3 {
@@ -164,7 +167,6 @@ body {
   width: 40%;
   line-height: 30px;
 }
-
 
 .navLinks a {
   text-decoration: none;
@@ -386,6 +388,7 @@ body {
   margin-right: auto;
   box-shadow: 0px 0px 2px #888888;
   cursor: pointer;
+  transition: transform 0.4s;
   border-radius: 10px;
 }
 
@@ -432,8 +435,12 @@ body {
   transform: scale(1.5);
 }
 
-.highlightsCard:hover > .play {
+.highlightsCard:hover .play {
   transform: scale(1.5);
+}
+.highlightsCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 10px #888888;
 }
 
 .section div button {
